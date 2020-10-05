@@ -1,0 +1,72 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	background-image: url(../img/rick.jpg);
+	background-size: cover;
+	color: #fff;
+}
+
+ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+li {
+	padding: 30px 20px;
+	list-style-type: none;
+}
+
+h1 {
+	padding-top: 30px;
+	text-align: center;
+}
+
+h2 {
+	padding-top: 30px;
+	text-align: center;
+}
+
+.header {
+	width: 80%;
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+.char {
+	width: 80%;
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+.rm_api {
+	width: 80%;
+	max-width: 1280px;
+	margin: 20px auto;
+	text-align: center;
+}
+
+.character {
+	width: 400px;
+	font-size: 18px;
+	padding: 5px;
+}
+
+.search_button {
+	font-size: 18px;
+	padding: 5px;
+}
+
+.char_name {
+	text-transform: uppercase;
+}
+
+.example {
+	padding-top: 30px;
+}
+
